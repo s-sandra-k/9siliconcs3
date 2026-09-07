@@ -20,3 +20,5 @@
 [View my Chinese Zodiac Exercise](q1/zodiacSiliconBeltran)
 
 [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
+
+[OOPAct: Understanding Classes and Objects](q1/classObjectUML.md)
