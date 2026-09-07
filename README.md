@@ -15,7 +15,7 @@
 
 ### Computational Thinking Skills
 
-[View my Computational Thinking Exercise](./q1/ctskillsSiliconBeltran.py)
+[View my Computational Thinking Exercise](q1/ctskillsSiliconBeltran)
 
 [View my Chinese Zodiac Exercise](q1/zodiacSiliconBeltran.py)
 
