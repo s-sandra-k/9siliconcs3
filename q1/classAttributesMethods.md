@@ -35,7 +35,7 @@ Added method: displayState().
 
 ## Object Diagram
 
-![Class Diagram](classDiagramSG5-1.png)
+![Object Diagram](objectDiagram.png)
 
 ## Analysis
 
