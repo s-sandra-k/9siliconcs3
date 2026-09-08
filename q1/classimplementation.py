@@ -26,8 +26,8 @@ class GameDirectoryEntry:
 
 
   # Create two independent game objects
-game1 = GameDirectoryEntry("Cyberpunk 2077", "CD Projekt Red", "RPG", True)
-game2 = GameDirectoryEntry("Elden Ring", "FromSoftware", "Action RPG", True)
+game1 = GameDirectoryEntry("Mobile Legends Bang Bang", "Moonton", "MOBA", True)
+game2 = GameDirectoryEntry("Call of Duty Mobile", "TiMi Studio Group", "Action FPS, Battle Royale", True)
 
 # Display initial states
 print("BEFORE")
