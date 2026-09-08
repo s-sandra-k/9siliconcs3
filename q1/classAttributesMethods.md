@@ -23,7 +23,7 @@ Added method: displayState().
 
 ## Updated UML Class Diagram
 
-!![Class Diagram](classDiagramSG5.png)
+![Class Diagram](classDiagramSG5.png)
 
 ## Python Implementation
 
