@@ -23,4 +23,6 @@
 
 [OOPAct: Understanding Classes and Objects](q1/classObjectUML.md)
 
-[OOPAct-PartII: My OOP Seed System](q1/classAttributesMethods.md)
+[OOPAct-PartII: Bringing your Class to Life](q1/classAttributesMethods.md)
+
+[OOPAct-PartIII: Connecting your objects](q1/classRelationships.md)
