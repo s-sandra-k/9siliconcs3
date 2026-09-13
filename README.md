@@ -25,4 +25,4 @@
 
 [OOPAct-PartII: Bringing your Class to Life](q1/classAttributesMethods.md)
 
-[OOPAct-PartIII: Connecting your objects](q1/classRelationships.md)
+[OOPAct-PartIII: Connecting your Objects](q1/classRelationships.md)
