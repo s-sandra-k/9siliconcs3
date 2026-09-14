@@ -22,7 +22,7 @@
 | incrementFavoriteCount() | Increases the total favorite count by one when a user favorites the game. |
 
 ## Class Diagram
-![Class Diagram](<CLASS NAME.png>)
+![Class Diagram](<classDiagram.png>)
 
 ## Design Explanation
 
