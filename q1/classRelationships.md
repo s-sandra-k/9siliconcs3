@@ -13,19 +13,19 @@ Description: GameDirectory represents a video game listed in a discovery library
 
 Class: UserLibrary
 
-Description: UserLibrary represents the user's library, it includes the games they have favorited.
+Description: UserLibrary represents the user's library, where they can manage, organize, and favorite multiple games.
 
 ## Association
 
-Relationship: 
+Relationship: UserLibrary manages GameDirectory
 
-Explanation: 
+Explanation: A Userlibrary object contains and manages GameDirectory Objects as the user discovers and adds games over time.
 
 ## Multiplicity
 
-Multiplicity:
+Multiplicity: 1:0
 
-Explanation:
+Explanation: One UserLibrary belongs to exactly one user, but it can contain zero or more GameDirectory objects as the user discovers and adds games over time.
 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
@@ -42,7 +42,15 @@ Explanation:
 ## Analysis
 
 ### What is the association between your two classes?
+The association between the two classes is a "has-a" relationship where one manages multiple objects. In this system, the library acts as a collection interface for a user, allowing them to register, organize, and view details about the games they are interested in tracking.
+
 ### What multiplicity did you choose and why?
+I chose a 1 to 0... multiplicity because a single user library is tied to one specific user, but it can contain anywhere from zero games to many games as the user adds titles over time. This structure fits real-world software design where users dynamically add or remove items from a library without changing the existence of the library container itself. 
+
 ### How did you implement the relationship in Python?
+
 ### Why did you store an object reference instead of copying its data?
+
+
 ### If your relationship uses many, why is a list appropriate?
+A Python list is appropriate for a one-to-many relationship because it dynamically resizes as objects are added or removed, maintaining an ordered collection of object references. Rather than holding copies of string names, the list stores memory pointers to the actual GameDirectory objects, allowing the program to iterate over the collection and invoke instance menthods dynamically.
