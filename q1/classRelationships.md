@@ -34,7 +34,7 @@ Explanation: One UserLibrary belongs to exactly one user, but it can contain zer
 [View Python Source](classRelationships.py)
 
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](relationshipTestRun.png)
 
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
