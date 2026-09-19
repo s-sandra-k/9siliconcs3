@@ -48,9 +48,10 @@ The association between the two classes is a "has-a" relationship where one mana
 I chose a 1 to 0... multiplicity because a single user library is tied to one specific user, but it can contain anywhere from zero games to many games as the user adds titles over time. This structure fits real-world software design where users dynamically add or remove items from a library without changing the existence of the library container itself. 
 
 ### How did you implement the relationship in Python?
+Using a private list called __games inside the UserLibrary class. The method addGame(self, game_entry) receives an instance of GameDirectory as a parameter and appends that object reference directy to the self.__games list.
 
 ### Why did you store an object reference instead of copying its data?
-
+Storing object references ensures that both the UserLibrary container and external scripts interact with the exact same instance in memory.
 
 ### If your relationship uses many, why is a list appropriate?
 A Python list is appropriate for a one-to-many relationship because it dynamically resizes as objects are added or removed, maintaining an ordered collection of object references. Rather than holding copies of string names, the list stores memory pointers to the actual GameDirectory objects, allowing the program to iterate over the collection and invoke instance menthods dynamically.
