@@ -28,7 +28,7 @@ Multiplicity: 1:0
 Explanation: One UserLibrary belongs to exactly one user, but it can contain zero or more GameDirectory objects as the user discovers and adds games over time.
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](classRelationshipDiagram.png)
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
@@ -37,7 +37,7 @@ Explanation: One UserLibrary belongs to exactly one user, but it can contain zer
 ![Relationship Test Run](relationshipTestRun.png)
 
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram](objectRelationshipDiagram.png)
 
 ## Analysis
 
