@@ -26,3 +26,5 @@
 [OOPAct-PartII: Bringing your Class to Life](q1/classAttributesMethods.md)
 
 [OOPAct-PartIII: Connecting your Objects](q1/classRelationships.md)
+
+[OOPAct-PartIV: Designing Advanced Class Relationships](q1/advancedRelationships.md)
