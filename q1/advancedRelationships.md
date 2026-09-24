@@ -47,18 +47,23 @@ Explanation: UserLibrary holds a list of GameDirectory (and SteamGame) objects. 
 ## Reflection
 
 1. Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
+
 I chose  SteamGame as a child class because a Steam game is a specific type of a general video game entry. It requires all functionality like titles, status toggles, and favorites, but also needs attributes specifically relevant to Steam's ecosystem, such as App IDs and unlocked achievements.
 
 2. How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
+
 Inheritance eliminated retyping base attributes andmethods like toggleFavorite() in SteamGame. By calling super().__init__(), the child class reuses parent setup logic and only defines its new features.
 
 3. Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship
 between the two objects.
+
 It is Aggregation because UserLibrary holds references to game objects that exist independently. If a UserLibrary instance is deleted, the GameDirectory objectcs remain in memory.
 
 4. What is the difference between Association from Part III and the advanced relationship you
 implemented?
+
 Part III used a general link showing a library manages games. The advanced design introduced an "IS-A" hierarchy with inheritance and clealry defined object independence with Aggregation.
 
 5. How does your design follow the DRY principle?
+
 It prevents code duplication by centraliziing shared behavior in GameDirectory. Any future updates to core game tracking only need to be written once in the parent class.
