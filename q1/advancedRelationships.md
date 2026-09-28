@@ -24,7 +24,7 @@ Child: SteamGame
 Explanation: SteamGame IS-A specific type of GameDirectory. It inherits properties like title, developer, genre, statis, and favorite tracking, whilst addiing Steam-specific attributes such as App Id and Unlocked Achievements.
 
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](inheritanceDiagram.png)
 
 ## Composition/Aggregation
 
@@ -33,7 +33,7 @@ Relationship: Aggregation
 Explanation: UserLibrary holds a list of GameDirectory (and SteamGame) objects. It is Aggregation because games exist independently in the global directory even if removed from a user's library or if the library object is destroyed.
 
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](advancedClassDiagram.png)
 
 ## Python Implementation
 [Source Code](advancedRelationships.py)
@@ -42,7 +42,7 @@ Explanation: UserLibrary holds a list of GameDirectory (and SteamGame) objects. 
 ![Test](advancedTestRun.png)
 
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](advancedObjectDiagram.png)
 
 ## Reflection
 
