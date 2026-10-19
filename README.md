@@ -28,3 +28,11 @@
 [OOPAct-PartIII: Connecting your Objects](q1/classRelationships.md)
 
 [OOPAct-PartIV: Designing Advanced Class Relationships](q1/advancedRelationships.md)
+
+# Quarter 2
+
+## Activities
+
+[View my Encapsulation Activiy 3](q2/sg8_encapsulation.py)
+
+[View my Inheritance Formative Assessment 1](q2/Inheritance.md)
