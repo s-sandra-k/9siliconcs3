@@ -35,4 +35,4 @@
 
 [View my Encapsulation Activiy 3](q2/sg8_encapsulation.py)
 
-[View my Inheritance Formative Assessment 1](q2/Inheritance.md)
+[View my Inheritance Formative Assessment 1](q2/Inheritance.py)
